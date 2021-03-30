@@ -14,7 +14,5 @@ module.exports = function dateSample(sampleActivity) {
   else {
     return Math.ceil((Math.log(MODERN_ACTIVITY/parseFloat(sampleActivity)))
                      / (Math.LN2.toPrecision(3)/HALF_LIFE_PERIOD));
-  };
-      
-      
+  };      
 };
